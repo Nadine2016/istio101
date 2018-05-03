@@ -3,7 +3,7 @@
 
 In this course, you can see how to install Istio alongside microservices for a simple mock app called Guestbook. When you deploy Guestbook's microservices into an IBM Cloud Container Service cluster where Istio is installed, you inject the Istio Envoy sidecar proxies in the pods of each microservice.
 
-**Note**: Some configurations and features of the Istio platform are still under development and are subject to change based on user feedback. Allow a few months for stablilization before you use Istio in production.
+**Important**: Some configurations and features of the Istio platform are still under development and are subject to change based on user feedback. Allow a few months for stablilization before you use Istio in production.
 
 ## Objectives
 After you complete this course, you'll be able to: 
@@ -16,7 +16,7 @@ After you complete this course, you'll be able to:
 - Enforce policies for your microservices
 
 ## Prerequisites
-You must you must have a Trial, Pay-As-You-Go, or Subscription [IBM Cloud account](https://console.bluemix.net/registration/) to complete all the modules in this course.
+You must have a Pay-As-You-Go, or Subscription [IBM Cloud account](https://console.bluemix.net/registration/) to complete all the modules in this course. Some of the exercises require a standard cluster to complete. 
 Note that Kubernetes 1.9.x or newer is recommended, earlier versions may require changes in manifests.
 
 You should have a basic understanding of containers, IBM Cloud Container Service, and Istio. If you have no experience with those, take the following courses:
